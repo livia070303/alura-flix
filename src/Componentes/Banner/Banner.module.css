@@ -1,0 +1,60 @@
+.banner{
+    background-image: url(../../assets/BannerBackground.png);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-position: 58% 45%;
+}
+
+.bannerFrontEnd{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    bottom: 78%;
+}
+
+.texto{
+    width: 45%;
+}
+
+.botaoFrontEnd{
+    background-color: #6BD1FF;
+    border-color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    width: 50%;
+    height: 25%;
+    color: #F5F5F5;
+    font-size: 45px;
+    
+}
+
+.titulo{
+    color: #F5F5F5;
+    font-size: 50px;
+    font-family: Roboto;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.paragrafo{
+    color: #F5F5F5;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 300;
+    margin: 0;
+}
+.player{
+    width: 45%;
+    height: 70%;
+}
+
+.playerPrincipal{
+    width: 100%;
+    height: 100%;
+}
