@@ -3,70 +3,105 @@
       {
         "id": 1,
         "titulo": "Conhecendo a linguagem Go | Hipsters.Talks",
-        "url": "https://www.youtube.com/embed/y8FeZMv37WU"
+        "urlVideo": "https://www.youtube.com/embed/y8FeZMv37WU",
+        "urlImagem": "assets/imagem1.png",
+        "categoria": "Frontend",
+        "corDaBorda": "6BD1FF"
       },
       {
         "id": 2,
         "titulo": "Desmistificando mobile - Linguagens e Frameworks",
-        "url": "https://www.youtube.com/embed/fmu1LQvZhms"
-        
+        "urlVideo": "https://www.youtube.com/embed/fmu1LQvZhms",
+        "urlImagem": "assets/imagem2.png",
+        "categoria": "Frontend",
+        "corDaBorda": "6BD1FF"
       },
       {
         "id": 3,
         "titulo": "Orientação a objetos com Roberta Arcoverde | #Hipster...",
-        "url": "https://www.youtube.com/embed/jpuJ1qrluoU"
-        
+        "urlVideo": "https://www.youtube.com/embed/jpuJ1qrluoU",
+        "urlImagem": "assets/imagem3.png",
+        "categoria": "Frontend",
+        "corDaBorda": "6BD1FF"
       },
       {
         "id": 4,
         "titulo": "Linguagens e ferramentas usadas em Ciência de Dados...",
-        "url": "https://www.youtube.com/embed/h83e1aAM5xQ"
-        
+        "urlVideo": "https://www.youtube.com/embed/h83e1aAM5xQ",
+        "urlImagem": "assets/imagem4.png",
+        "categoria": "Frontend",
+        "corDaBorda": "6BD1FF"
       },
       {
         "id": 5,
         "titulo": "Reencontrando a paixão por programar: Beatriz Ramerindo",
         "descricao": "1,2 mil visualizações",
-        "url": "https://www.youtube.com/embed/CnB3eLTrkn4"
+        "urlVideo": "https://www.youtube.com/embed/CnB3eLTrkn4",
+        "urlImagem": "assets/imagem5.png",
+        "categoria": "DataScience",
+        "corDaBorda": "rgba(105, 149, 59, 1)"
         
       },
       {
         "id": 6,
         "titulo": "Híbridos: Flutter e React Native | Desmistificando..",
-        "url": "https://www.youtube.com/embed/vf9P_PycgRw"
+        "urlVideo": "https://www.youtube.com/embed/vf9P_PycgRw",
+        "urlImagem": "assets/imagem6.png",
+        "categoria": "DataScience",
+        "corDaBorda": "rgba(105, 149, 59, 1)"
         
       },
       {
         "id": 7,
         "titulo": "Data Science na prática- com Jéssika Ribeiro do Grupo...",
-        "url": "https://www.youtube.com/embed/Nts3P35mHzE"
+        "urlVideo": "https://www.youtube.com/embed/Nts3P35mHzE",
+        "urlImagem": "assets/imagem7.png",
+        "categoria": "DataScience",
+        "corDaBorda": "rgba(105, 149, 59, 1)"
         
       },
       {
         "id": 8,
         "titulo": "baNaNa | Memes do JavaScript #2",
-        "url": "https://www.youtube.com/embed/HBVCsBtsmzA"
+        "urlVideo": "https://www.youtube.com/embed/HBVCsBtsmzA",
+        "urlImagem": "assets/imagem8.png",
+        "categoria": "DataScience",
+        "corDaBorda": "rgba(105, 149, 59, 1)"
         
       },
       {
+        "id": 9,
         "titulo": "[Casa do Código] Live de lançamento: Navegando no Universo da Programação",
-        "url": "https://www.youtube.com/embed/z43rcfjXOxU",
-        "id": 9
+        "urlVideo": "https://www.youtube.com/embed/z43rcfjXOxU",
+        "urlImagem": "assets/imagem9.png",
+        "categoria": "Mobile",
+        "corDaBorda": "rgba(255, 186, 5, 1)"
+        
       },
       {
+        "id": 10,
         "titulo": "Educação coorporativa",
-        "url": "https://www.youtube.com/embed/IGFSiBJIXFQ",
-        "id": 10
+        "urlVideo": "https://www.youtube.com/embed/IGFSiBJIXFQ",
+        "urlImagem": "assets/imagem10.png",
+        "categoria": "Mobile",
+        "corDaBorda": "rgba(255, 186, 5, 1)"        
       },
       {
+        "id": 11,
         "titulo": "Educação coorporativa",
-        "url": "https://www.youtube.com/embed/IGFSiBJIXFQ",
-        "id": 11
+        "urlVideo": "https://www.youtube.com/embed/IGFSiBJIXFQ",
+        "urlImagem": "assets/imagem11.png",
+        "categoria": "Mobile",
+        "corDaBorda": "rgba(255, 186, 5, 1)"
+        
       },
       {
+        "id": 12,
         "titulo": "Educação coorporativa",
         "url": "https://www.youtube.com/embed/IGFSiBJIXFQ",
-        "id": 12
+        "urlImagem": "assets/imagem12.png",
+        "categoria": "Mobile",
+        "corDaBorda": "rgba(255, 186, 5, 1)"
       }
     ]
   }

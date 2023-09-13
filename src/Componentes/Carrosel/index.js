@@ -1,7 +1,6 @@
 import styles from './Carrosel.module.css'
-import Videos from '../Videos'
 import ScrollContainer from 'react-indiana-drag-scroll'
-export default function Carrosel({first, temHeader, tituloHeader, descHeader,listaVideo, corDeFundo }){
+export default function Carrosel({first, temHeader, tituloHeader, descHeader,children, corDeFundo }){
 
     return(
         <>
@@ -14,7 +13,7 @@ export default function Carrosel({first, temHeader, tituloHeader, descHeader,lis
                 :    ""    
         }
             <ScrollContainer className={styles.carrosel} horizontal={true} style={{marginTop: first ? '-10%' : '0'}}>
-                {listaVideo}
+                {children}
             </ScrollContainer>
         </>
             
