@@ -4,7 +4,7 @@
         "id": 1,
         "titulo": "Conhecendo a linguagem Go | Hipsters.Talks",
         "urlVideo": "https://www.youtube.com/embed/y8FeZMv37WU",
-        "urlImagem": "assets/imagem1.png",
+        "urlImagem": "img/imagem1.png",
         "categoria": "Frontend",
         "corDaBorda": "6BD1FF"
       },
@@ -12,7 +12,7 @@
         "id": 2,
         "titulo": "Desmistificando mobile - Linguagens e Frameworks",
         "urlVideo": "https://www.youtube.com/embed/fmu1LQvZhms",
-        "urlImagem": "assets/imagem2.png",
+        "urlImagem": "img/imagem2.png",
         "categoria": "Frontend",
         "corDaBorda": "6BD1FF"
       },
@@ -20,7 +20,7 @@
         "id": 3,
         "titulo": "Orientação a objetos com Roberta Arcoverde | #Hipster...",
         "urlVideo": "https://www.youtube.com/embed/jpuJ1qrluoU",
-        "urlImagem": "assets/imagem3.png",
+        "urlImagem": "img/imagem3.png",
         "categoria": "Frontend",
         "corDaBorda": "6BD1FF"
       },
@@ -28,7 +28,7 @@
         "id": 4,
         "titulo": "Linguagens e ferramentas usadas em Ciência de Dados...",
         "urlVideo": "https://www.youtube.com/embed/h83e1aAM5xQ",
-        "urlImagem": "assets/imagem4.png",
+        "urlImagem": "img/imagem4.png",
         "categoria": "Frontend",
         "corDaBorda": "6BD1FF"
       },
@@ -37,7 +37,7 @@
         "titulo": "Reencontrando a paixão por programar: Beatriz Ramerindo",
         "descricao": "1,2 mil visualizações",
         "urlVideo": "https://www.youtube.com/embed/CnB3eLTrkn4",
-        "urlImagem": "assets/imagem5.png",
+        "urlImagem": "img/imagem5.png",
         "categoria": "DataScience",
         "corDaBorda": "rgba(105, 149, 59, 1)"
         
@@ -46,7 +46,7 @@
         "id": 6,
         "titulo": "Híbridos: Flutter e React Native | Desmistificando..",
         "urlVideo": "https://www.youtube.com/embed/vf9P_PycgRw",
-        "urlImagem": "assets/imagem6.png",
+        "urlImagem": "img/imagem6.png",
         "categoria": "DataScience",
         "corDaBorda": "rgba(105, 149, 59, 1)"
         
@@ -55,7 +55,7 @@
         "id": 7,
         "titulo": "Data Science na prática- com Jéssika Ribeiro do Grupo...",
         "urlVideo": "https://www.youtube.com/embed/Nts3P35mHzE",
-        "urlImagem": "assets/imagem7.png",
+        "urlImagem": "img/imagem7.png",
         "categoria": "DataScience",
         "corDaBorda": "rgba(105, 149, 59, 1)"
         
@@ -64,7 +64,7 @@
         "id": 8,
         "titulo": "baNaNa | Memes do JavaScript #2",
         "urlVideo": "https://www.youtube.com/embed/HBVCsBtsmzA",
-        "urlImagem": "assets/imagem8.png",
+        "urlImagem": "img/imagem8.png",
         "categoria": "DataScience",
         "corDaBorda": "rgba(105, 149, 59, 1)"
         
@@ -73,7 +73,7 @@
         "id": 9,
         "titulo": "[Casa do Código] Live de lançamento: Navegando no Universo da Programação",
         "urlVideo": "https://www.youtube.com/embed/z43rcfjXOxU",
-        "urlImagem": "assets/imagem9.png",
+        "urlImagem": "img/imagem9.png",
         "categoria": "Mobile",
         "corDaBorda": "rgba(255, 186, 5, 1)"
         
@@ -82,7 +82,7 @@
         "id": 10,
         "titulo": "Educação coorporativa",
         "urlVideo": "https://www.youtube.com/embed/IGFSiBJIXFQ",
-        "urlImagem": "assets/imagem10.png",
+        "urlImagem": "img/imagem10.png",
         "categoria": "Mobile",
         "corDaBorda": "rgba(255, 186, 5, 1)"        
       },
@@ -90,7 +90,7 @@
         "id": 11,
         "titulo": "Educação coorporativa",
         "urlVideo": "https://www.youtube.com/embed/IGFSiBJIXFQ",
-        "urlImagem": "assets/imagem11.png",
+        "urlImagem": "img/imagem11.png",
         "categoria": "Mobile",
         "corDaBorda": "rgba(255, 186, 5, 1)"
         
@@ -99,7 +99,7 @@
         "id": 12,
         "titulo": "Educação coorporativa",
         "url": "https://www.youtube.com/embed/IGFSiBJIXFQ",
-        "urlImagem": "assets/imagem12.png",
+        "urlImagem": "img/imagem12.png",
         "categoria": "Mobile",
         "corDaBorda": "rgba(255, 186, 5, 1)"
       }
