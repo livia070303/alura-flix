@@ -1,6 +1,6 @@
 import Cabecalho from '../Cabecalho'
+import Rodape from '../Rodape'
 import styles from './CriarCategoria.module.css'
-import aluraFlix from '../../assets/LogoMain.png'
 
 export default function CriarCategoria(){
     return(
@@ -14,7 +14,11 @@ export default function CriarCategoria(){
                             
                         <textarea className={styles.texto} placeholder="Todos os vídeo da área de Front End juntarei nessa categoria para organizar os estudos que venho fazendo atualmente"></textarea>
                         
-                        <input className={styles.inputCor}  required placeholder="Cor" type='color'  />
+                        <div className={styles.cor}>
+                            <label for="cor">Cor</label>
+                            <input id="cor" className={styles.inputCor}  required placeholder="Cor" type='color'  />
+                        </div>
+                        
                             
                         <input className={styles.codigoSeguranca} required placeholder='Código de segurança' />
 
@@ -79,9 +83,7 @@ export default function CriarCategoria(){
                     </table>
 
                 </div>
-            <footer className={styles.rodape}>
-                <img className={styles.imagemRodape} src={aluraFlix}/>
-            </footer>
+            <Rodape />
         </>
         
     )

@@ -49,16 +49,24 @@
     resize: none;
 }
 
-.inputCor{
-    width: 91%;
-    height: 8%;
-    margin-bottom: 3%;
+.cor{
+    height: 12%;
     background: rgba(83, 88, 93, 1);
-    color: #ffffff;
-    font-size: 17px;
-    border: none;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
     border-radius: 5px;
+    margin-bottom: 3%;
+    color:rgb(128, 130, 133);
+    font-size: 17px;
     padding-left: 1%;
+}
+
+.inputCor{
+    width: 100%;
+    height: 58%;
+    background: rgba(83, 88, 93, 1);
+    border: none;
 }
 
 .codigoSeguranca{
@@ -131,18 +139,4 @@ td, th {
     border: 1px solid #000000;
     text-align: left;
     padding: 8px;
-}
-
-.rodape{
-    width: 100%;
-    height: 12%;
-    border-top: 2px solid rgb(10, 24, 145);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: rgba(26, 25, 25, 0.9);
-}
-
-.imagemRodape{
-    margin-bottom: 2%;
 }

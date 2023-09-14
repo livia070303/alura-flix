@@ -1,5 +1,5 @@
 import styles from './CriarVideo.module.css'
-import aluraFlix from '../../assets/LogoMain.png'
+import Rodape from "../Rodape"
 import Cabecalho from '../Cabecalho'
 import { useNavigate } from 'react-router-dom';
 
@@ -31,10 +31,7 @@ export default function CriarVideo() {
                     </div>
                 </div>
             </div>
-            <footer className={styles.rodape}>
-                <img className={styles.imagemRodape} src={aluraFlix}/>
-            </footer>
-                
+            <Rodape />
         </>
             
     )
