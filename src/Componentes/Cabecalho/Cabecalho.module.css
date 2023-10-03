@@ -25,3 +25,20 @@
     border-color: #FFF;
     cursor: pointer;
 }
+
+
+
+@media (max-width: 480px) {
+    .botaoNovoVideo{
+        display: none;
+    }
+
+    .logo{
+        margin-left: 0%;
+    }
+
+    .cabecalho{
+        display: flex;
+        justify-content: center;
+    }
+}

@@ -103,5 +103,24 @@
         "categoria": "Mobile",
         "corDaBorda": "rgba(255, 186, 5, 1)"
       }
+    ],
+    
+    "categoria": [
+      {
+        "id": 2,
+        "nome": "Data Science",
+        "texto": "Coisas de R e Python que venho aprendendo",
+        "cor": "#69953B",
+        "codigo-seguranca": "0020"
+      },
+
+      {
+        "id": 3,
+        "nome": "Mobile",
+        "texto": "Conteúdo que venho estudando sobre React Native e Flutter",
+        "cor": "#FFBA05",
+        "codigo-seguranca": "0030"
+      }
     ]
+
   }

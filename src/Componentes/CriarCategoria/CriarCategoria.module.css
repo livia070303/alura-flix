@@ -140,3 +140,55 @@ td, th {
     text-align: left;
     padding: 8px;
 }
+
+
+@media (max-width: 480px){
+    .titulo{
+        font-size: 25px;
+        margin-bottom: 12%;
+        padding-top: 2%;
+    }
+
+    .tabelaPrincipal{
+        display: none;
+    }
+
+    .nome{
+        width: 85%;
+        height: 8%;
+        margin-bottom: 12%;
+    }
+
+    .texto{
+        width: 85%;
+        margin-bottom: 12%;
+    }
+
+    .cor{
+        width: 85%;
+        margin-bottom: 12%;
+    }
+
+    .inputCor{
+        height: 54%;
+    }
+
+    .codigoSeguranca{
+        width: 85%;
+    }
+
+    .botaoSalvar{
+        width: 33%;
+        height: 65%;
+        margin-left: 3%;
+        font-size: 22px;
+    }
+
+    .botaoLimpar{
+        width: 33%;
+        height: 65%;
+        font-size: 22px;
+        margin-right: 5%;
+    }
+
+}

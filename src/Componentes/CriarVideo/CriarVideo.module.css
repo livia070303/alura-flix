@@ -102,16 +102,49 @@
     cursor: pointer;
 }
 
-.rodape{
-    width: 100%;
-    height: 12%;
-    border-top: 2px solid rgb(10, 24, 145);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: rgba(26, 25, 25, 0.9);
-}
 
-.imagemRodape{
-    margin-bottom: 2%;
+@media (max-width: 480px){
+    .titulo{
+        font-size: 25px;
+        margin-bottom: 12%;
+        padding-top: 2%;
+    }
+
+    .inputs{
+        width: 85%;
+        height: 8%;
+        margin-bottom: 4.5%;
+    }
+
+    .descricao{
+        width: 85%;
+        margin-bottom: 4.5%;
+    }
+
+    .inputCodigoSeguranca{
+        width: 85%;
+    }
+
+    .campoBotao{
+        height: 10%;
+        margin-top: 10%;
+    }
+
+    .botaoSalvar{
+        width: 22%;
+        font-size: 18px;
+        margin-left: 3%;
+    }
+
+    .botaoLimpar{
+        width: 22%;
+        font-size: 18px;
+        margin-right: 5%;
+    }
+
+    .botaoCategoria{
+        width: 22%;
+        width: 40%;
+        font-size: 18px;
+    }
 }
