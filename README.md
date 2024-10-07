@@ -1,70 +1,175 @@
-# Getting Started with Create React App
+# Alura-Flix
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O **Alura-Flix** é uma aplicação web desenvolvida em **React** que permite a visualização de uma lista de vídeos, semelhante a uma plataforma de streaming. A aplicação consome dados de uma API mock criada com o **JSON Server** e hospedada no link [https://my-json-server.typicode.com/livia070303/alura-flix/](https://my-json-server.typicode.com/livia070303/alura-flix/).
 
-## Available Scripts
+## Funcionalidades
 
-In the project directory, you can run:
+- Listagem de vídeos.
+- Filtragem por categorias de vídeo.
+- Exibição de detalhes de cada vídeo.
+- **Possibilidade de cadastrar novos vídeos e categorias (apenas rodando localmente o JSON Server).**
 
-### `npm start`
+## Pré-requisitos
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Antes de começar, você precisará ter as seguintes ferramentas instaladas em sua máquina:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [Node.js](https://nodejs.org/en/)
+- [npm](https://www.npmjs.com/) ou [yarn](https://yarnpkg.com/)
+- **JSON Server** (opcional, para rodar a API localmente e permitir operações CRUD).
 
-### `npm test`
+## Como rodar o projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 1. Instalar dependências do projeto
 
-### `npm run build`
+1. Clone este repositório para sua máquina local:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   git clone https://github.com/seu-usuario/alura-flix.git
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Acesse o diretório do projeto:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+cd alura-flix
+```
 
-### `npm run eject`
+3. Instale as dependências necessárias:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+npm install
+```
+ou, se estiver usando yarn:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+yarn install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 2. Rodar a aplicação
+4. Inicie o servidor de desenvolvimento:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm start
+```
+ou, com yarn:
 
-## Learn More
+```bash
+yarn start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+5. Acesse o aplicativo no navegador:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+http://localhost:3000
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 3. Rodar JSON Server Localmente (opcional)
+Para suportar a criação de novos vídeos e categorias, você pode rodar o JSON Server localmente.
 
-### Analyzing the Bundle Size
+1. Instale o JSON Server globalmente em sua máquina:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+npm install -g json-server
+```
 
-### Making a Progressive Web App
+2. Utilizeo  arquivo db.json que está na raiz do projeto com os dados iniciais:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```json
+{
+    "videos": [
+      {
+        "id": 1,
+        "titulo": "Conhecendo a linguagem Go | Hipsters.Talks",
+        "urlVideo": "https://www.youtube.com/embed/y8FeZMv37WU",
+        "urlImagem": "img/imagem1.png",
+        "categoria": "Frontend",
+        "corDaBorda": "6BD1FF"
+      },
+      {
+        "id": 2,
+        "titulo": "Desmistificando mobile - Linguagens e Frameworks",
+        "urlVideo": "https://www.youtube.com/embed/fmu1LQvZhms",
+        "urlImagem": "img/imagem2.png",
+        "categoria": "Frontend",
+        "corDaBorda": "6BD1FF"
+      },
+      {
+        "id": 3,
+        "titulo": "Orientação a objetos com Roberta Arcoverde | #Hipster...",
+        "urlVideo": "https://www.youtube.com/embed/jpuJ1qrluoU",
+        "urlImagem": "img/imagem3.png",
+        "categoria": "Frontend",
+        "corDaBorda": "6BD1FF"
+      },
+      {
+        "id": 4,
+        "titulo": "Linguagens e ferramentas usadas em Ciência de Dados...",
+        "urlVideo": "https://www.youtube.com/embed/h83e1aAM5xQ",
+        "urlImagem": "img/imagem4.png",
+        "categoria": "Frontend",
+        "corDaBorda": "6BD1FF"
+      },
+      {
+        "id": 5,
+        "titulo": "Reencontrando a paixão por programar: Beatriz Ramerindo",
+        "descricao": "1,2 mil visualizações",
+        "urlVideo": "https://www.youtube.com/embed/CnB3eLTrkn4",
+        "urlImagem": "img/imagem5.png",
+        "categoria": "DataScience",
+        "corDaBorda": "rgba(105, 149, 59, 1)"
+        
+      },
+    ],
+    
+    "categoria": [
+      {
+        "id": 2,
+        "nome": "Data Science",
+        "texto": "Coisas de R e Python que venho aprendendo",
+        "cor": "#69953B",
+        "codigo-seguranca": "0020"
+      },
 
-### Advanced Configuration
+      {
+        "id": 3,
+        "nome": "Mobile",
+        "texto": "Conteúdo que venho estudando sobre React Native e Flutter",
+        "cor": "#FFBA05",
+        "codigo-seguranca": "0030"
+      }
+    ]
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+  }
+```
 
-### Deployment
+3. Inicie o JSON Server com o seguinte comando:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```bash
+json-server --watch db.json --port 8000
+```
 
-### `npm run build` fails to minify
+4. Atualize as requisições da aplicação para apontar para http://localhost:8000 ao invés da URL hospedada no serviço de mock.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Agora você pode realizar operações de criação, leitura, atualização e deleção de vídeos e categorias.
+
+## API Mock
+A aplicação utiliza uma API mock criada com o JSON Server. Você pode acessar a API hospedada através do seguinte endpoint:
+
+- **Base URL**: https://my-json-server.typicode.com/livia070303/alura-flix/
+Os principais endpoints são:
+
+- /videos: Retorna a lista de vídeos.
+- /categorias: Retorna a lista de categorias.
+
+## Estrutura do Projeto
+O projeto segue a estrutura padrão de uma aplicação React:
+
+- **src/**: Contém os arquivos de código-fonte.
+- **components/**: Componentes reutilizáveis da interface.
+- **pages/**: Páginas da aplicação.
+- **App.js**: Componente principal da aplicação e que contém as configurações de Rotas.
+- **index.js**: Ponto de entrada da aplicação.
+
+## Tecnologias Utilizadas
+- **React**: Biblioteca JavaScript para criação de interfaces de usuário.
+- **JSON Server**: Ferramenta para simulação de APIs RESTful.
+- **Material-UI (MUI)**: Biblioteca para componentes de interface prontos.
+- **React Router**: Navegação entre páginas da aplicação.
